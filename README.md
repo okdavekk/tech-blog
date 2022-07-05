@@ -17,12 +17,12 @@
 
 - [REPOSITORY](https://github.com/okdavekk/tech-blog)
 
-- [VIDEO LINK](https://www.awesomescreenshot.com/video/9676793)
+- [VIDEO LINK]()
 
 ## Installation
-- Run npm
+- Run npm i
 
-- Run
+- Seed database
 
 ## Description
 ### Your Task
