@@ -1,30 +1,30 @@
 <div class='menu-container'>
   <div class='card-header col-md-10'>
     <h2>
-      &#127869 Current Menu
+      Posts
     </h2>
   </div>
   {{#each dishes as |dish|}}
-    <div class='dish col-md-5'>
-      <p>
-        {{dish.id}}.
-        {{dish.dish_name}}
-      </p>
-    </div>
-    <div class='col-md-7'>
-      <p>
-        Guest:
-        {{dish.guest_name}}
-      </p>
-    </div>
+  <div class='dish col-md-5'>
+    <p>
+      {{!-- {{dish.id}}. --}}
+      {{dish.dish_name}}
+    </p>
+  </div>
+  <div class='col-md-7'>
+    <p>
+      Guest:
+      {{dish.guest_name}}
+    </p>
+  </div>
   {{/each}}
   <div class='add-dish-container'>
     <h2>
-      RSVP with the dish you plan to bring!
+      Type Something to Blog About
     </h2>
     <form class='new-dish-form'>
       <label for='dish_name'>
-        Dish Name:
+        Comment:
       </label>
       <br />
       <textarea id='dish_name' name='dish_name' rows='2' cols='30'>
@@ -48,10 +48,10 @@
       </textarea>
       <br />
       <br />
-      <input type='checkbox' id='has_nuts' name='has_nuts' value='true' />
+      {{!-- <input type='checkbox' id='has_nuts' name='has_nuts' value='true' />
       <label for='has_nuts'>
         Check box if this dish contains nuts
-      </label>
+      </label> --}}
       <br />
       <button type='submit' value='Submit'>
         Submit
